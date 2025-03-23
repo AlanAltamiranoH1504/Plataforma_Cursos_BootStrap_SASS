@@ -1,4 +1,9 @@
 @charset "UTF-8";
+.header {
+  position: relative;
+  z-index: 100;
+}
+
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
@@ -3733,7 +3738,7 @@ textarea.form-control-lg {
   --bs-nav-link-padding-x: 1rem;
   --bs-nav-link-padding-y: 0.5rem;
   --bs-nav-link-font-weight: ;
-  --bs-nav-link-color: var(--bs-link-color);
+  --bs-nav-link-color: #A435F0;
   --bs-nav-link-hover-color: var(--bs-link-hover-color);
   --bs-nav-link-disabled-color: var(--bs-secondary-color);
   display: flex;
@@ -11845,6 +11850,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.descuentos .texto-descuentos {
-  margin-bottom: -2rem;
+@media (min-width: 992px) {
+  .descuentos .texto-descuentos {
+    margin-bottom: -2rem;
+  }
 }
